@@ -19,10 +19,10 @@
           <label for="surname">
             Surname:
             <input
-            id="surname"
-            type="text"
-            name="surname"
-            autocomplete="off"
+              id="surname"
+              type="text"
+              name="surname"
+              autocomplete="off"
             >
           </label>
         </div>
@@ -31,11 +31,11 @@
           <label for="name">
             Name:
             <input
-            id="name"
-            type="text"
-            name="name"
-            autocomplete="off"
-            maxlength="22"
+              id="name"
+              type="text"
+              name="name"
+              autocomplete="off"
+              maxlength="22"
             >
           </label>
         </div>
@@ -44,12 +44,12 @@
           <label for="old">
             How old are You?
             <input
-            id="old"
-            type="number"
-            name="old"
-            value="12"
-            min="1"
-            max="120"
+              id="old"
+              type="number"
+              name="old"
+              value="12"
+              min="1"
+              max="120"
             >
           </label>
         </div>
@@ -58,9 +58,9 @@
           <label for="birth">
             Full date of birth:
             <input
-            id="birth"
-            type="date"
-            name="birth"
+              id="birth"
+              type="date"
+              name="birth"
             >
           </label>
         </div>
@@ -69,9 +69,9 @@
           <label for="agree">
             I accept the term of the agreement
             <input
-            id="agree"
-            type="checkbox"
-            name="agree"
+              id="agree"
+              type="checkbox"
+              name="agree"
             >
           </label>
         </div>
@@ -83,12 +83,12 @@
           <label for="email">
             E-mail:
             <input
-            id="email"
-            type="email"
-            name="email"
-            placeholder="email@example.com"
-            required
-            multiple
+              id="email"
+              type="email"
+              name="email"
+              placeholder="email@example.com"
+              required
+              multiple
             >
           </label>
         </div>
@@ -97,11 +97,11 @@
           <label for="password">
             Password:
             <input
-            id="password"
-            type="password"
-            name="password"
-            minlength="6"
-            required
+              id="password"
+              type="password"
+              name="password"
+              minlength="6"
+              required
             >
           </label>
         </div>
@@ -110,29 +110,28 @@
       <fieldset class="field">
         <legend>An interesting fact about you!</legend>
         <div class="container">
-          <label for="cats">
-            Do you love cats?
-            <input
-            id="cats"
+          <span>Do you love cats?</span>
+          <input
             type="radio"
-            name="loveCats"
-            >
-            Yes
-            <input
+            name="cats"
+            id="loveCats"
+          >
+          <label for="loveCats">Yes</label>
+          <input
             type="radio"
-            name="dontLoveCats"
-            >
-            No
-          </label>
+            name="cats"
+            id="dontLoveCats"
+          >
+          <label for="dontLoveCats">No</label>
         </div>
 
         <div class="container">
           <label for="color">
             What is your favorite color?
             <input
-            id="color"
-            type="color"
-            name="color"
+              id="color"
+              type="color"
+              name="color"
             >
           </label>
         </div>
@@ -141,11 +140,11 @@
           <label for="time">
             What time do you go to bed?
             <input
-            id="time"
-            type="time"
-            name="timeToBed"
-            step="2"
-            required
+              id="time"
+              type="time"
+              name="timeToBed"
+              step="2"
+              required
             >
           </label>
         </div>
@@ -154,9 +153,9 @@
           <label for="car">
             What are your favorite brand of cars?
             <select
-            name="car"
-            id="car"
-            multiple
+              name="car"
+              id="car"
+              multiple
             >
               <option value="BMW">BMW</option>
               <option value="Audi">Audi</option>
@@ -169,9 +168,9 @@
           <label for="rate">
             How do you rate our work?
             <input
-            id="rate"
-            type="range"
-            name="rate"
+              id="rate"
+              type="range"
+              name="rate"
             >
           </label>
         </div>
@@ -183,11 +182,11 @@
           <label for="comment">
             Comments:
             <textarea
-            id="comment"
-            name="comment"
-            cols="30"
-            rows="2"
-            autocomplete="off"
+              id="comment"
+              name="comment"
+              cols="30"
+              rows="2"
+              autocomplete="off"
             >
             </textarea>
           </label>
@@ -197,8 +196,8 @@
           <label for="recommends">
             Would you recommend us?
             <select
-            id="recommends"
-            name="recommends"
+              id="recommends"
+              name="recommends"
             >
               <option value="yes">yes</option>
               <option value="no">no</option>
@@ -208,9 +207,9 @@
       </fieldset>
 
       <button
-      type="submit"
-      onsubmit="onSubmit()"
-      name="submite"
+        type="submit"
+        onsubmit="onSubmit()"
+        name="submite"
       >
       Submit
       </button>
